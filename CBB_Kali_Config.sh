@@ -103,6 +103,6 @@ do
 		echo "---------------------------------------------------------------"
             break
             ;;
-        *) echo invalid option;;
+        *) echo sorry invalid option;;
     esac
 done
