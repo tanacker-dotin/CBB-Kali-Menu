@@ -41,7 +41,7 @@ do
 		echo "iwconfig $nic mode monitor..."
 		ifconfig $nic up
 		echo "ifconfig $nic up..."
-		airmon-ng  kill
+		airmon-ng check kill
 		echo "airmon-ng check kill..."
 		echo "---------------------------------------------------------------"
 		echo " "
